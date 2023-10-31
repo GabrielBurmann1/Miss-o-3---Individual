@@ -1,7 +1,7 @@
 .teste {
     color: blue;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 30px !important;
+    font-weight: bold !important;
     padding: 0%;
     text-align: center;
 }
@@ -19,6 +19,6 @@
     color: green;
 }
 .Importante {
-    font-weight: bold;
-    font-size: x-large;
+    font-weight: bold !important;
+    font-size: x-large !important;
 }

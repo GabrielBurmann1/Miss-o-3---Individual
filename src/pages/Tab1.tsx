@@ -29,16 +29,16 @@ const Tab1: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <IonCardContent className='div'>
-          <IonCardContent className='teste'>Bem-vindo ao Meu Site</IonCardContent>
-          <IonCardContent className='texto'>Este é um parágrafo de exemplo</IonCardContent>
+          <p className='teste'>Bem-vindo ao Meu Site</p>
+          <p className='texto'>Este é um parágrafo de exemplo</p>
           <IonButton  onClick={fetchRandomImage}>Clique Aqui</IonButton>
           {randomImage && (
           <IonImg src={randomImage.urls.small} alt={randomImage.alt_description} className='img'></IonImg>
         )}
         </IonCardContent>
         <IonCardContent className='div'>
-          <IonCardContent className='Importante'>Seção Importante</IonCardContent>
-          <IonCardContent className='texto'>Está é uma seção com conteúdo relevante</IonCardContent>
+          <p className='Importante'>Seção Importante</p>
+          <p className='texto'>Está é uma seção com conteúdo relevante</p>
         </IonCardContent>
         <IonCardContent>
           <IonImg className='logo' src="src/assets/imgs/marca.jpg"></IonImg>
